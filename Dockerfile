@@ -14,7 +14,9 @@
 # FROM public.ecr.aws/sam/build-python3.11:latest-x86_64
 # FROM public.ecr.aws/sam/build-python3.11:latest-arm64
 # FROM public.ecr.aws/sam/build-python3.12:latest-x86_64
-FROM public.ecr.aws/sam/build-python3.12:latest-arm64
+# FROM public.ecr.aws/sam/build-python3.12:latest-arm64
+# FROM public.ecr.aws/sam/build-python3.13:latest-x86_64
+FROM public.ecr.aws/sam/build-python3.13:latest-arm64
 # https://gallery.ecr.aws/sam/build-python3.11
 
 

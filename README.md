@@ -17,7 +17,7 @@ Welcome to our AWS Lambda deployment guide! This README will help you build, ini
     Use the following commands to build your Docker image. This image is configured with Python 3.11 and other necessary settings for AWS Lambda deployment.
 
     ```sh
-    docker build -t coredot/lambda311 .
+    docker build -t coredot/lambda313 .
     ```
 
 2. **Running the Docker Container:**
@@ -25,7 +25,7 @@ Welcome to our AWS Lambda deployment guide! This README will help you build, ini
     After building the image, run the container. This step will install your Python dependencies and prepare the deployment package.
 
     ```sh
-    docker run --rm -v "${PWD}":/var/task coredot/lambda311
+    docker run --rm -v "${PWD}":/var/task coredot/lambda313
     ```
 
 ### 🚀 Deployment
